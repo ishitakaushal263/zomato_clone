@@ -1,0 +1,676 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebf2ff;
+    font-family: 'Merriweather', serif;
+}
+.main__navbar{
+    /* border: 2px solid blue; */
+    position: sticky;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(91, 84, 84)
+}
+.zomato__main__div{
+    /* border: 2px solid green; */
+    padding-left: 10px;
+}
+.zomato__main__image{
+    /* border: 2px solid black; */
+    width: 120px;
+    height: 100px;
+}
+.orderfood__main__div{
+    padding-right: 8px;
+}
+
+.orderfood__button{
+    width: 80px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    font-weight: 600;
+    box-shadow: 0 0 20px rgb(203, 119, 119);
+    background-image: linear-gradient(to right, rgb(244, 112, 112) 0% , rgb(236, 98, 98) 50% , rgb(218, 119, 120) 100%);
+    transition: 0.5s;
+    display: block;
+}
+.orderfood__button:hover{
+    background-image: linear-gradient(to left , rgb(237, 93, 93) 0% , rgb(216, 97, 97) 50% , rgb(230, 107, 107) 100%);
+    /* background-position: right center; */
+}
+.section__main__part1{
+    /* border: 2px solid black; */
+    padding: 0 10px;
+    
+    
+}
+.image__part1__div{
+    /* border: 2px solid blue; */
+    /* position: relative; */
+}
+.zomato__image__part1{
+    width: 100%;
+    height: 300px;
+    left: auto;
+    right: auto;
+    /* position: absolute; */
+    border-radius: 10px;
+    /* z-index: 2; */
+}
+/* .zomato__figure__part1{
+    width: 500px;
+    position: absolute;
+    top: 70px;
+    right: auto;
+     
+}
+.zomato__figure__2__part1{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 120px;
+    left: 80px;
+    right: auto;
+     z-index: 999;
+    
+} */
+.container_content{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    
+}
+.content_para{
+    font-weight: 900px;
+    font-weight: bolder;
+    font-size: x-large;
+    line-height: 2.1rem;
+    color: blue;
+}
+.second__container{
+    margin-top: 40px;
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+/* .container__video{
+    margin-top: 50px;
+} */
+.container__video{
+    position: relative;
+}
+.container__video::before{
+    background-image: linear-gradient(to right , rgb(181, 117, 117) 0% , rgb(213, 113, 113) 50% , rgb(201, 91, 91) 100%);
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform: translate(1rem , 1rem);
+    /* top: 23px;
+    left: 25px; */
+    z-index: -1;
+}
+.description_para{
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    color: red;
+    text-align: center;
+    line-height: 1.6rem;
+}
+.first__list{
+    /* border: 2px solid black; */
+    position: relative;
+    margin: 2rem 0rem ;
+    padding: 0 10px;
+    
+}
+.content__wrap{
+    /* border: 2px solid green; */
+    margin-top: 20px;
+    background-color: #ebf2ff;
+    box-shadow: 0 0 20px rgb(194, 188, 188);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.explore_heading{
+    margin-top: 50px;
+    text-align: center;
+}
+.explore__our__menu{
+    color: rgb(10, 10, 49);
+    font-weight: bolder;
+    font-weight: 1200px;
+    font-size: x-large;
+    
+}
+.image__div{
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.inside__image{
+    width: 100%;
+    /* border: 2px solid blue; */
+    border-radius: 5px 5px 0px 0px;
+}
+.name__of__image{
+    /* border: 2px solid green; */
+    margin-top: 20px;
+    padding-left: 10px ;
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+   
+}
+.heading__image__context{
+    font-weight: 700px;
+    text-align: left;
+}
+.span__context{
+    /* border: 2px solid blue; */
+    font-size: medium;
+    font-weight: 500; 
+}
+.list__section{
+    /* border: 2px solid green; */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.button__inside{
+    background-image: linear-gradient(to right ,#ff512f 0% , #dd2476 50% ,#ff512f 100%);
+    width: 100%;
+    height: 40px;
+    border-radius: 5%;
+    border: none;
+     color: white;
+    font-weight: 400;
+    /* border: 2px solid gray;
+    border-radius: 5px; */
+}
+.section__third{
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.heading__container{
+    font-weight: bolder;
+}
+.image__wrap__container{
+    margin-top: 30px;
+}
+.first__div{
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: baseline;
+}
+.section__image__1{
+    width: 180px;
+    height: 120px;
+    border-radius: 5px;
+}
+#width__change{
+    height: 100px;
+    
+}
+.next__div{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 10px;
+    /* align-items: baseline; */
+}
+#width_change{
+    height: 100px;
+}
+.heading__container{
+    font-weight: bolder;
+    /* border: 2px solid red; */
+    width: 300px;
+}
+.section4__main{
+    margin-top: 60px;
+    /* border: 2px solid blue; */
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.heading__section4{
+    text-align: center;
+}
+.form__container{
+    text-align: center;
+    /* margin-top: 5px; */
+}
+.email__box{
+    width: 150px;
+    height: 30px;
+    border: 1px solid red;
+    background: #eee6e5;
+    border-radius: 5px;
+}
+.get_update_button{
+    display: inline;
+    width: 100px;
+}
+
+.section5__div__container{
+    margin-top: 70px;
+}
+.image__section5__container{
+    /* border: 2px solid black; */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    height: 220px;
+    /* background-image: url('https://assets.gqindia.com/photos/62b162bbaee341d180136cfd/master/pass/new%20restaurants%20in%20Mumbai.jpg');
+    background-position: center; 
+    backdrop-filter: blur(5px); 
+    z-index: -99;  */
+    position: relative; 
+    border-radius: 10px;
+
+}
+.image__section5__container::before{
+background-image: url('https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F2947%2Ftrend20200930101748.jpg'); 
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    /* transform: translate(1rem , 1rem); */
+    /* transform: skewY(-5deg); */
+    z-index: -36666;  
+    filter: blur(1px);
+    /* top: 25px; */
+    background-position: center;
+    background-size: cover; 
+    border-radius: 10px;
+}
+.section5__heading{
+    color: white;
+
+}
+.footer_container{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    background-image: linear-gradient(to right, rgb(204, 150, 150) 0% , rgb(232, 193, 193) 50% , rgb(223, 173, 173) 100%);
+}
+.footer_description_div{
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+@media (min-width : 1200px){
+    .main__navbar{
+        /* padding: 0 3rem; */
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .orderfood__button{
+        width: 170px;
+        height: 70px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 1.6rem;
+    }
+    .section__main__part1{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding-left:  200px;
+        padding-right: 200px;
+        padding-top: 60px;
+        margin-top: 50px;
+    }
+    /* .image__part1__div{
+        border: 2px solid blue;
+    } */
+    .zomato__image__part1{
+        width: 800px;
+    height: 500px;   
+ }
+    .container_content{
+        /* border: 2px solid purple; */
+        margin: 0;
+        padding: 0;
+    }
+    .content_para{
+        /* border: 2px solid green; */
+        font-size: 80px;
+        font-weight: 900px;
+        line-height: 1.35;
+    }
+    .second__container{
+        margin-top: 60px;
+        padding: 0px 12px;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .container__video{
+        margin-top: 70px;
+    }
+    .video_footage{
+        width: 380px;
+        height: 200px;
+    }
+    .description_div{
+        /* border: blue 2px solid; */
+        width: 60%;
+    }
+    .description_para{
+        font-size: xx-large;
+        font-weight: bolder;
+        line-height: 3rem;
+        
+    }
+    .explore__our__menu{
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+    
+    .inside__image{
+        /* border: 2px solid red; */
+        width: 500px;
+        height: 500px;
+    }
+    .first__list{
+        /* border: 2px solid black; */
+        position: relative;
+        margin: 2rem 0rem ;
+        padding: 0px 10px;
+        /* flex-basis: 30%; */
+        
+    }
+    .explore_heading{
+        /* border: 2px solid white; */
+        align-self: flex-end;
+         justify-self: center;  
+    }
+    .explore__our__menu{
+        font-size: 65px;
+    }
+    .heading__image__context{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .span__context{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .content__wrap{
+        /* border: 2px solid blue; */
+    }
+    .list__section{
+        /* border: 2px solid purple; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding-top: 2rem;
+        padding-left: 100px;
+        padding-right: 100px;
+        position: relative;
+        margin-top: 80px;
+    }
+    .diagonal_container{
+        /* border: 2px solid blueviolet;  */
+        /* background-image: linear-gradient(to right , #ff512f 0% , #dd2476 50% ,#ff512f 100%); */
+       position: relative;
+       /* transform: skewY(-5deg);  */
+        /* z-index: -36666;  */
+        /* height: 100%;
+       width: 100%; */
+    }
+    .diagonal_container::before{
+        background-image: linear-gradient(to right , #ff512f 0% , #dd2476 50% ,#ff512f 100%);
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        /* transform: translate(1rem , 1rem); */
+        transform: skewY(-5deg);
+        z-index: -36666;  
+        top: 25px;
+    }
+    /* .xxx{
+        border: 2px solid black;
+        position: absolute;
+        background-image: linear-gradient(to right , #ff512f 0% , #dd2476 50% ,#ff512f 100%);
+        transform: skewY(-5deg);
+        z-index: -3;
+       
+    } */
+
+    .wrap__class__div{
+        /* border: 2px solid yellowgreen; */
+        display: flex;
+        flex-direction: row;
+    }
+    .button__div{
+        /* border: 2px solid green; */
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    .button__inside{
+        /* border: 2px solid blue; */
+        background-image:linear-gradient(to right ,  #ff512f 0% , #dd2476 50% ,#ff512f  100%); 
+        color: white;
+        border: none;
+        font-weight: 500;
+        font-size: 30px;
+        padding: 12px;
+        width: 30%;
+        height: 60px;
+        transition: 0.5s;
+        background: none;
+
+    }
+    .button__inside:hover{
+        background: aliceblue;
+        width: 50%;
+        color: red;
+        border-radius: 5px;
+        /* transition-duration: 1s ;
+        transition-delay: 1s; */
+    }
+    .section__third{
+        /* border: 2px solid black; */
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        /* padding-left: 30px; */
+        align-items: center;
+        /* flex-wrap: wrap; */
+        /* flex-direction: column; */
+        padding-top: 80px;
+    } 
+    .heading__container{
+        /* border: 2px solid red; */
+        color: rgb(39, 31, 31);
+        font-weight: bolder;
+        font-weight: bolder;
+        font-size: xx-large;
+        font-size: 80px;
+        text-align: center;
+        width: 900px;
+        padding: 10px;
+
+
+    }
+    .image__wrap__container{
+        /* border: 2px solid green; */
+        
+        display: flex;
+        flex-direction: column;
+        /* padding: 10px; */
+        justify-content: center;
+    }
+    
+    .first__div{
+        /* border: 2px solid pink; */
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 5px;
+    }
+    .next__div{
+        /* border: 2px solid blue; */
+        display: flex;
+        /* align-items: baseline; */
+        gap: 5px;
+
+    }
+    .section__third{
+        /* border: 2px solid black; */
+        /* display: flex; */
+        
+
+    }
+    .first__image__div{
+        /* border: 6px solid black; */
+       
+    }
+    .section__image__1{
+        border-radius: 5px;
+        width:400px;
+        height:300px;
+    }
+    #width__change{
+        width: 350px ;
+        height: 200px;
+    }
+    #width_change{
+        width: 350px ;
+        height: 200px;
+    }
+    .heading__section4{
+        margin-top: 90px;
+        /* border: 2px solid blue; */
+        text-align: center;
+        font-weight: 900;
+        font-size: 65px;
+    }
+    .form__container{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .email__box{
+        width: 400px;
+        height: 60px;
+        border-radius: 5px;
+        border-color: red;
+        background: rgb(249, 229, 229);
+        font-size: larger;
+
+    }
+    .get_update_button{
+        background-image: linear-gradient(to right , rgb(181, 117, 117) 0% , rgb(213, 113, 113) 50% , rgb(201, 91, 91) 100%);
+        width: 190px;
+        height: 80px; 
+        border-radius: 4px;
+        color: white;
+        font-weight: 600;
+        font-size: 25px;
+        box-shadow: 0 0 20px rgb(203, 119, 119);
+        background-image: linear-gradient(to right, rgb(244, 112, 112) 0% , rgb(236, 98, 98) 50% , rgb(218, 119, 120) 100%);
+        transition: 0.5s;
+        
+    }
+    .get_update_button:hover{
+        background-image: linear-gradient(to left , rgb(237, 93, 93) 0% , rgb(216, 97, 97) 50% , rgb(230, 107, 107) 100%);
+    }
+    .section5__div__container{
+        /* border: #dd2476 2px solid; */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+    }
+    .image__section5__container{
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        flex-wrap: wrap;
+        height: 350px;
+        /* background-image: url('https://assets.gqindia.com/photos/62b162bbaee341d180136cfd/master/pass/new%20restaurants%20in%20Mumbai.jpg');
+        background-position: center; 
+        backdrop-filter: blur(5px); 
+        z-index: -99;  */
+        position: relative; 
+        border-radius: 10px;
+
+    }
+    .image__section5__container::before{
+    background-image: url('https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F2947%2Ftrend20200930101748.jpg'); 
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 60%;
+        /* transform: translate(1rem , 1rem); */
+        /* transform: skewY(-5deg); */
+        z-index: -36666;  
+        /* top: 25px; */
+        filter: blur(1px);
+        background-position: center;
+        background-size: cover; 
+        border-radius: 10px;
+    }
+    
+    .section5__heading{
+        /* border: #dd2476 2px solid; */
+        width: 50%;
+        font-size: 50px;
+        color: #ebf2ff;
+        z-index: 999;
+        
+    }
+    .section5_background{
+        width: 100%;
+    }
+    .footer_container{
+        /* border: 2px solid red; */
+        margin-top: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-image: linear-gradient(to right, rgb(204, 150, 150) 0% , rgb(232, 193, 193) 50% , rgb(223, 173, 173) 100%);
+        border-radius: 10px;
+    }
+    .description_section6{
+        font-weight: bold;
+        font-size: larger;
+        line-height: 1.6rem;
+    }
+
+
+
+}
