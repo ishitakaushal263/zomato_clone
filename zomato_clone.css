@@ -200,6 +200,13 @@ body{
     /* border: 2px solid gray;
     border-radius: 5px; */
 }
+.image__wrap__container{
+    /* border: 2px solid blue; */
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .section__third{
     margin-top: 50px;
     padding-left: 10px;
@@ -284,6 +291,7 @@ body{
     z-index: -99;  */
     position: relative; 
     border-radius: 10px;
+    width: 100%;
 
 }
 .image__section5__container::before{
