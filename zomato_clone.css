@@ -203,11 +203,12 @@ body{
 .image__wrap__container{
     /* border: 2px solid blue; */
     width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
+    /* padding-left: 5px;
+    padding-right: 5px; */
 }
 
 .section__third{
+    /* border: 2px solid blue; */
     margin-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -226,7 +227,7 @@ body{
     align-items: baseline;
 }
 .section__image__1{
-    width: 180px;
+    width: 130px;
     height: 120px;
     border-radius: 5px;
 }
